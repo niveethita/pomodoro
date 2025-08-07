@@ -28,11 +28,16 @@ header > h1, img{
     font-weight: 500;
 }
 
-#stage4 , #stage5 {
+#plant {
     height: 200px;
-    vertical-align: top;
 }
 
-#stage0 , #stage1, #stage2, #stage3 {
-    height: 300px;
+#plant-pot {
+    border: 4px inset saddlebrown;
+    border-radius: 5%;
+    width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 5px;
 }
+
