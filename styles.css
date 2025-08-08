@@ -3,22 +3,32 @@
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: rgb(175, 195, 141);
+  margin: 0;
+  box-sizing: border-box;
 }
 
 #pomodoro-logo {
     width: 80px;
 }
 
-header, #timer {
+header, footer {
+    background-color: #003400;
+    padding: 10px;
     text-align: center;
 }
 
-header > p {
+main {
+    background-color: rgb(86, 97, 68);
+    padding: 20px;
+    text-align: center;
+}
+
+header > p, footer > p {
     font-size: 20px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: whitesmoke;
 }
 
 header > h1, img{
@@ -26,18 +36,41 @@ header > h1, img{
     vertical-align: middle;
     box-sizing: border-box;
     font-weight: 500;
+    color: whitesmoke;
 }
 
 #plant {
     height: 200px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    
 }
 
 #plant-pot {
-    border: 4px inset saddlebrown;
-    border-radius: 5%;
-    width: 100px;
-    height: 200px;
+    border: 5px solid rgb(89, 96, 77);
+    border-radius: 50%;
+    background-color: rgb(175, 195, 141);
+    width: 300px;
+    height: 300px;
+    padding: 40px;
     margin: 0 auto;
-    margin-top: 5px;
+    vertical-align: bottom;
 }
+
+ .counter {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    color: whitesmoke;
+ }
+
+ .btn-start {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 25%;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    background-color: rgb(56, 67, 34);
+ }
 

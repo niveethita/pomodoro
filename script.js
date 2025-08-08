@@ -29,17 +29,17 @@ function growPlant() {
     const progress = (totalInitialSeconds - totalSeconds) / totalInitialSeconds;
 
     if (progress >= 1) {
-        plant.src = 'https://i.imgur.com/CZwGNGU.png'; // stage 5
+        plant.src = 'https://i.imgur.com/LhGEmPq.png'; // stage 5
     } else if (progress >= 0.8) {
-        plant.src = 'https://i.imgur.com/GMhfT8h.png'; // stage 4
+        plant.src = 'https://i.imgur.com/lpY1Qh0.png'; // stage 4
     } else if (progress >= 0.6) {
-        plant.src = 'https://i.imgur.com/idQdfAq.png'; // stage 3
+        plant.src = 'https://i.imgur.com/8B6IVFl.png'; // stage 3
     } else if (progress >= 0.4) {
-        plant.src = 'https://i.imgur.com/aaymv9Y.png'; // stage 2
+        plant.src = 'https://i.imgur.com/iQ7ltPY.png'; // stage 2
     } else if (progress >= 0.2) {
-        plant.src = 'https://i.imgur.com/tehUm1u.png'; // stage 1
+        plant.src = 'https://i.imgur.com/zviyFQd.png'; // stage 1
     } else {
-        plant.src = 'https://i.imgur.com/LroNRFC.png'; // stage 0
+        plant.src = 'https://i.imgur.com/8nBKaM6.png'; // stage 0
     }
 }
 
@@ -58,4 +58,7 @@ function timer() {
 }
 
 startButton.addEventListener('click', timer);
+
+
+
 
